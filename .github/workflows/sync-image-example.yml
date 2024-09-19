@@ -37,4 +37,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
-         skopeo copy docker://docker.io/btpanel/baota:7.9.4-lib docker://crpi-eevx1qriveeh77fr.cn-shanghai.personal.cr.aliyuncs.com/lich_king/baota:7.9.4-lib
+         skopeo copy docker://docker.io/centos:centos7.9.2009 docker://crpi-eevx1qriveeh77fr.cn-shanghai.personal.cr.aliyuncs.com/lich_king/centos:centos7.9.2009
